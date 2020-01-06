@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Yannaing Lynn on 10/30/19 12:12 PM
+  ~  * Copyright (c) 2019 . All rights reserved.
+  ~  * Last modified 10/30/19 12:12 PM
+  ~  */
+  -->
+
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.0.2.2</domain>
+    </domain-config>
+</network-security-config>

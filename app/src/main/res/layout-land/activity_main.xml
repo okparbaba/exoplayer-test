@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme.Fullscreen"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/player_view"
+        app:resize_mode="fill"
+        android:layout_width="match_parent"
+        app:show_buffering="when_playing"
+        app:show_shuffle_button="true"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
